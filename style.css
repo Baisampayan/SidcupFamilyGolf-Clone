@@ -81,6 +81,11 @@ video {
 
 #page1 {
   height: 100vh;
+}
+
+#page1-wrapper {
+  padding-top: 20%;
+  height: 80vh;
   width: 100%;
   position: relative;
   display: flex;
@@ -90,14 +95,14 @@ video {
   z-index: 10;
 }
 
-#page1 h1 {
+#page1-wrapper h1 {
   font-size: 5.5rem;
   font-weight: 900;
   position: relative;
   text-transform: uppercase;
 }
 
-#page1 h1::before {
+#page1-wrapper h1::before {
   content: "Eat. Drink. Play.";
   position: absolute;
   color: #000000;
@@ -107,7 +112,7 @@ video {
   z-index: -1;
 }
 
-#page1 h2 {
+#page1-wrapper h2 {
   font-size: 1.5rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -115,14 +120,54 @@ video {
   padding-bottom: 10px;
 }
 
-#page1 p {
+#page1-wrapper p {
   font-size: 1.2rem;
   font-weight: 200;
   width: 50%;
   text-align: center;
 }
 
+#scroll-down {
+  height: 20vh;
+  /* width: 15vh; */
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  transform: translateX(-2%);
+}
+
+#scroll-down-wrapper {
+  /* border: red 1px solid; */
+  bottom: 0;
+  left: 0;
+  height: 100%;
+}
+
+.scroll-bg {
+  height: 100%;
+  position: absolute;
+}
+
+.bg {
+  width: 20vh;
+  height: 100%;
+  border: 2px solid #95c11e;
+  border-radius: 50%;
+}
+
+.scroll-icon {
+  position: absolute;
+  transform: translate(0%, 110%);
+  width: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color: #ffffff;
+}
+
 #page2 {
+  padding-top: 50px;
   height: 100vh;
   width: 100%;
   z-index: 10;
