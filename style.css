@@ -259,8 +259,8 @@ video {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  /* position: relative; */
-  /* z-index: 10; */
+  position: relative;
+  z-index: 10;
 }
 
 .cards {
