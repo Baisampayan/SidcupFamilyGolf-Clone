@@ -272,13 +272,13 @@ video {
 }
 
 #cards1 {
-  background-image: url("/assets/images/card1.jpg");
+  background-image: url("./assets/images/card1.jpg");
 }
 
 #cards2 {
-  background-image: url("/assets/images/card2.jpg");
+  background-image: url("./assets/images/card2.jpg");
 }
 
 #cards3 {
-  background-image: url("/assets/images/card3.jpg");
+  background-image: url("./assets/images/card3.jpg");
 }
