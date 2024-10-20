@@ -319,3 +319,28 @@ video {
   font-size: 1.2rem;
   line-height: 2rem;
 }
+
+#signup-section {
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(to left bottom, #b1e523, #35a932) ;
+}
+
+#signup-section img {
+  width: 10%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#signup-section h4 {
+  width: 50%;
+  color: #000000;
+  font-size: 27px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 10;
+}
