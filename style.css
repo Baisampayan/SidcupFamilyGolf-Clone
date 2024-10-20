@@ -45,6 +45,11 @@ body {
   text-transform: uppercase;
 }
 
+#nav ul li:hover {
+  color: #000000;
+  cursor: pointer;
+}
+
 #cursor {
   height: 25px;
   width: 25px;
@@ -325,7 +330,7 @@ video {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: linear-gradient(to left bottom, #b1e523, #35a932) ;
+  background: linear-gradient(to left bottom, #35a932, #b1e523) ;
 }
 
 #signup-section img {
@@ -343,4 +348,37 @@ video {
   text-transform: uppercase;
   position: relative;
   z-index: 10;
+}
+
+#testimonials {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+}
+
+#testimonials>p {
+  font-size: 30px;
+  line-height: 50px;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
+  width: 60%;
+}
+
+#testimonials img {
+  position: absolute;
+  height: 60px;
+}
+
+#quote-left {
+  top: 20%;
+  left: 15%;
+}
+
+#quote-right {
+  bottom: 20%;
+  right: 15%;
 }
