@@ -382,3 +382,63 @@ video {
   bottom: 20%;
   right: 15%;
 }
+
+#course-cta {
+  height: 30vh;
+  width: 100%;
+  /* background-color: #95c11e; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.crse {
+  height: 70%;
+  width: 25%;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 10;
+}
+
+.crse h2 {
+  height: 100%;
+  width: 100%;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all ease 0.5s;
+  position: absolute;
+  background-color: #95c11e;
+
+}
+
+.crse img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all ease 0.5s;
+}
+
+.crse:hover {
+  background-color: transparent;
+}
+
+.crse:hover img {
+  scale: 1.2;
+}
+
+.crse:hover h2 {
+  position: absolute;
+  color: #ffffff;
+  background-color: transparent;
+}
+
