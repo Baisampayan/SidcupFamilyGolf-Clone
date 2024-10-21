@@ -106,3 +106,15 @@ gsap.from("#quote-right", {
     scrub: 4
   },
 });
+
+gsap.from("#course-cta h3", {
+  y: 70,
+  scrollTrigger: {
+    trigger: "#course-cta h3",
+    scroller: "body",
+    start: "top 75%",
+    end: "top 90%",
+    // markers: true,
+    scrub: 4
+  },
+});

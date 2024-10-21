@@ -386,10 +386,21 @@ video {
 #course-cta {
   height: 30vh;
   width: 100%;
-  /* background-color: #95c11e; */
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  position: relative;
+}
+
+#course-cta h3 {
+  position: absolute;
+  top: -45px;
+  font-size: 6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px #ffffff;
+  color: black;
+  z-index: 10;
 }
 
 .crse {
@@ -397,10 +408,6 @@ video {
   width: 25%;
   border-radius: 20px;
   overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   position: relative;
   z-index: 10;
 }
@@ -418,7 +425,7 @@ video {
   transition: all ease 0.5s;
   position: absolute;
   background-color: #95c11e;
-
+  z-index: 10;
 }
 
 .crse img {
@@ -426,19 +433,14 @@ video {
   width: 100%;
   object-fit: cover;
   transition: all ease 0.5s;
-}
-
-.crse:hover {
-  background-color: transparent;
-}
-
-.crse:hover img {
   scale: 1.2;
 }
 
 .crse:hover h2 {
-  position: absolute;
   color: #ffffff;
   background-color: transparent;
 }
 
+.crse:hover img {
+  scale: 1;
+}
