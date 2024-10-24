@@ -17,6 +17,16 @@ body {
   color: #ff0000;
 }
 
+body::-webkit-scrollbar {
+  display: block;
+  width: 5px;
+  background-color: #059d3d;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #000000;
+}
+
 #nav {
   height: 140px;
   width: 100%;
@@ -137,9 +147,34 @@ video {
   text-align: center;
 }
 
+#page1 #scroll-down {
+  height: 250px;
+  width: 250px;
+  background-color: transparent;
+  border: 2px solid #95c11e;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  left: -2%;
+  transition: all ease 0.5s;
+  z-index: 10;
+}
+
+#page1 #scroll-down:hover {
+  scale: 0.4;
+  background-color: #95c11e;
+}
+
+#scroll-down i {
+  font-size: 50px;
+  font-weight: 100;
+}
+
+/* 
 #scroll-down {
   height: 20vh;
-  /* width: 15vh; */
   display: flex;
   align-items: center;
   justify-content: start;
@@ -147,7 +182,6 @@ video {
 }
 
 #scroll-down-wrapper {
-  /* border: red 1px solid; */
   bottom: 0;
   left: 0;
   height: 100%;
@@ -174,7 +208,7 @@ video {
   justify-content: center;
   font-size: 50px;
   color: #ffffff;
-}
+} */
 
 #page2 {
   padding-top: 50px;
