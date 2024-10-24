@@ -12,6 +12,11 @@ body {
   width: 100%;
 }
 
+*::selection {
+  background-color: #ffffff;
+  color: #ff0000;
+}
+
 #nav {
   height: 140px;
   width: 100%;
